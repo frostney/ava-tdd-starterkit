@@ -1,0 +1,26 @@
+{
+  "name": "ava-tdd-basecode",
+  "version": "1.0.0",
+  "description": "Basecode Babel ES2015 made at JSCodeRetreat Augsburg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frostney/ava-tdd-basecode.git"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/frostney/ava-tdd-basecode/issues"
+  },
+  "homepage": "https://github.com/frostney/ava-tdd-basecode#readme",
+  "devDependencies": {
+    "ava": "^0.7.0",
+    "babel-core": "^5.8.34"
+  },
+  "dependencies": {
+    "require-directory": "^2.1.1"
+  }
+}

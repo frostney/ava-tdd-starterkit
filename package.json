@@ -4,7 +4,8 @@
   "description": "Basecode Babel ES2015 made at JSCodeRetreat Augsburg",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ava": "ava",
+    "test": "ava"
   },
   "repository": {
     "type": "git",

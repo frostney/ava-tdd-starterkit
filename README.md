@@ -1,9 +1,13 @@
-# ava-tdd-basecode
-Basecode Babel ES2015 made at JSCodeRetreat Augsburg
+# AVA TDD Starterkit
+TDD Starterkit with AVA & Babel 6
 
-Ava + ES2015 + Babel 5 (and stuff that could and should solved be in a better way)
+### `lib/someLogic.js`
+A small little file that is the base for what we are going to test.
 
-Made literally in 10 minutes.
+### `test/someLogic.js`
+The file that tests `lib/someLogic.js`.
+
+Originally made at JSCodeRetreat Augsburg
 
 ## License
 Public domain. MIT or whatever else you want to with it.

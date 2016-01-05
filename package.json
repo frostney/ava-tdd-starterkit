@@ -1,11 +1,11 @@
 {
-  "name": "ava-tdd-basecode",
-  "version": "1.0.0",
-  "description": "Basecode Babel ES2015 made at JSCodeRetreat Augsburg",
+  "name": "ava-tdd-starterkit",
+  "version": "2.0.0",
+  "description": "AVA TDD Starterkit",
   "main": "index.js",
   "scripts": {
     "ava": "ava",
-    "test": "ava"
+    "test": "ava --verbose --require babel-register test/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -18,10 +18,10 @@
   },
   "homepage": "https://github.com/frostney/ava-tdd-basecode#readme",
   "devDependencies": {
-    "ava": "^0.7.0",
-    "babel-core": "^5.8.34"
+    "ava": "^0.9.1"
   },
   "dependencies": {
-    "require-directory": "^2.1.1"
+    "babel-preset-es2015-node5": "^1.1.1",
+    "babel-register": "^6.3.13"
   }
 }
